@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-26T20:22:47 IST" name="Default suite" finished-at="2023-09-26T20:22:49 IST" duration-ms="2054">
+  <suite started-at="2023-09-27T19:06:13 IST" name="Default suite" finished-at="2023-09-27T19:06:15 IST" duration-ms="1969">
     <groups>
     </groups>
-    <test started-at="2023-09-26T20:22:47 IST" name="Default test" finished-at="2023-09-26T20:22:49 IST" duration-ms="2054">
-      <class name="CreatePostReq">
-        <test-method signature="testPostUsingExternalJsonFile()[pri:1, instance:CreatePostReq@5a56cdac]" started-at="2023-09-26T20:22:47 IST" name="testPostUsingExternalJsonFile" finished-at="2023-09-26T20:22:49 IST" duration-ms="1956" status="PASS">
+    <test started-at="2023-09-27T19:06:13 IST" name="Default test" finished-at="2023-09-27T19:06:15 IST" duration-ms="1969">
+      <class name="validation.ParsingJSONResponseData">
+        <test-method signature="testJsonResponse()[pri:1, instance:validation.ParsingJSONResponseData@54bff557]" started-at="2023-09-27T19:06:13 IST" name="testJsonResponse" finished-at="2023-09-27T19:06:15 IST" duration-ms="1931" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUsingExternalJsonFile -->
-        <test-method signature="testDelete()[pri:2, instance:CreatePostReq@5a56cdac]" started-at="2023-09-26T20:22:49 IST" name="testDelete" finished-at="2023-09-26T20:22:49 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDelete -->
-      </class> <!-- CreatePostReq -->
+        </test-method> <!-- testJsonResponse -->
+      </class> <!-- validation.ParsingJSONResponseData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
